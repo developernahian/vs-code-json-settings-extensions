@@ -1,1 +1,43 @@
-comming soon....
+Code Spell Checker
+vscode-pdf
+Todo Tree
+Prettier - Code formatter
+Power Mode
+Path Autocomplete
+Live Share
+Live Server
+Live Preview
+Learn with Sumit Theme
+JavaScript (ES6) code snippets
+Indenticator
+indent-rainbow
+Image preview
+HTML to CSS autocompletion
+HTML End Tag Labels
+HTML CSS Support
+hightlight-selections-vscode
+Highlight Matching Tag
+GitLens — Git supercharged
+GitHub Pull Requests
+Format HTML in PHP
+Excalidraw
+ESLint
+ES7+ React/Redux/React-Native snippets
+ES7 React/Redux/GraphQL/React-Native snippets
+Error Lens
+Draw.io Integration
+DOM Code Snippets
+CSS Peek
+CSS Flexbox Cheatsheet
+Color Highlight
+CodeSnap
+Code Runner
+Clock in status bar
+Brackets Dark
+Bracket Pair Colorization Toggler
+Better Comments
+Babel JavaScript
+axe Accessibility Linter
+Auto Rename Tag
+Material Icon Theme
+
