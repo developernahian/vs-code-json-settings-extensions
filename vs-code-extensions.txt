@@ -7,7 +7,8 @@ Path Autocomplete
 Live Share
 Live Server
 Live Preview
-Learn with Sumit Theme
+Learn with Sumit Theme ( after install, select "Learn with Sumit - Shades of Grey")
+Brackets Dark  (Alternative)
 JavaScript (ES6) code snippets
 Indenticator
 indent-rainbow
@@ -33,7 +34,6 @@ Color Highlight
 CodeSnap
 Code Runner
 Clock in status bar
-Brackets Dark
 Bracket Pair Colorization Toggler
 Better Comments
 Babel JavaScript
