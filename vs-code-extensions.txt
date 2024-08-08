@@ -40,4 +40,4 @@ Babel JavaScript
 axe Accessibility Linter
 Auto Rename Tag
 Material Icon Theme
-
+Tailwind CSS IntelliSense
