@@ -1,4 +1,4 @@
-## last update 01-01-2025
+## last update 01-02-2025
 after paste my json code then must install all extension.
 Special customization is Todo Tree:
 after install todo tree and paste my json code then write 
@@ -13,6 +13,13 @@ after install todo tree and paste my json code then write
     PROBLEM:
     WLINK:
     VLINK:
+    STEP:
+    START:
+    END:
+    [+]
+    [-]
+    [*]
+    [/]
                 anywhere
                          and see Magic
 
