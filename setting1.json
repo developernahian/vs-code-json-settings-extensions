@@ -1,206 +1,335 @@
 {
-    "editor.occurrencesHighlight": "off",
-    "editor.selectionHighlight": false,
-    "workbench.iconTheme": "material-icon-theme",
-    "security.workspace.trust.untrustedFiles": "open",
-    "files.autoSave": "afterDelay",
-    "editor.fontFamily": "'JetBrains Mono',  Consolas, 'Courier New', monospace",
-    "editor.wordWrap": "on",
-    "terminal.integrated.profiles.windows": {
-      "PowerShell": {
-        "source": "PowerShell",
-        "icon": "terminal-powershell"
-      },
-      "Command Prompt": {
-        "path": [
-          "${env:windir}\\Sysnative\\cmd.exe",
-          "${env:windir}\\System32\\cmd.exe"
-        ],
-        "args": [],
-        "icon": "terminal-cmd"
-      },
-      "Git Bash": {
-        "source": "Git Bash"
-      }
+  "editor.occurrencesHighlight": "off",
+  "editor.selectionHighlight": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "security.workspace.trust.untrustedFiles": "open",
+  "files.autoSave": "afterDelay",
+  "editor.fontFamily": "'Cascadia Code', 'Cascadia Mono', 'JetBrains Mono', monospace",
+  "editor.wordWrap": "on",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
     },
-  
-    // TODO customization
-    "todo-tree.highlights.defaultHighlight": {
-      "icon": "alert",
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+
+  //my customizatiron
+  // "[javascriptreact]": {
+  // "editor.formatOnSave": true,
+  // "editor.defautlformatter": "esbenp.prettier-vscode",
+
+  // },
+
+  // TODO customization
+  "todo-tree.highlights.defaultHighlight": {
+    "icon": "alert",
+    "foreground": "black",
+    "background": "white",
+    "iconColour": "blue",
+    "gutterIcon": true,
+    "borderRadius": "4px"
+  },
+  "todo-tree.highlights.customHighlight": {
+    "TODO:": {
+      "icon": "pin",
       "foreground": "black",
-      "background": "white",
-      "iconColour": "blue",
-      "gutterIcon": true,
-      "borderRadius": "4px"
+      "background": "yellow",
+      "iconColour": "yellow"
     },
-    "todo-tree.highlights.customHighlight": {
-      "TODO:": {
-        "icon": "milestone",
-        "foreground": "black",
-        "background": "yellow",
-        "iconColour": "yellow"
-      },
-      "IMPORTANT:": {
-        "icon": "star",
-        "foreground": "black",
-        "background": "#69E25B",
-        "iconColour": "#69E25B"
-      },
-      "NOTE:": {
-        "icon": "note",
-        "foreground": "white",
-        "background": "#922B21",
-        "iconColour": "#922B21"
-      },
-      "COMMENT:": {
-        "icon": "rocket",
-        "foreground": "white",
-        "background": "#646a70",
-        "iconColour": "#8a949e",
-        "type": "text-and-comment"
-      },
-      "PROBLEM:": {
-        "icon": "question",
-        "foreground": "white",
-        "background": "tomato",
-        "iconColour": "tomato"
-      },
-      "BOOKMARK:": {
-        "icon": "bookmark",
-        "foreground": "white",
-        "background": "#417d8b",
-        "iconColour": "#70d1e7"
-      },
-      "FIXME:": {
-        "icon": "ruby",
-        "foreground": "black",
-        "background": "pink",
-        "iconColour": "pink"
-      },
-      "BUG:": {
-        "icon": "bug",
-        "foreground": "white",
-        "background": "red",
-        "iconColour": "red"
-      },
-      "WLINK:": {
-        "icon": "globe",
-        "foreground": "white",
-        "background": "#5d94e7",
-        "iconColour": "#5d94e7"
-      },
-      "VLINK:": {
-        "icon": "globe",
-        "foreground": "white",
-        "background": "#5d94e7",
-        "iconColour": "#5d94e7"
-      }
+    "IMPORTANT:": {
+      "icon": "star",
+      "foreground": "black",
+      "background": "#69E25B",
+      "iconColour": "#69E25B"
     },
-    "todo-tree.general.tags": [
-      "TODO:",
-      "FIXME:",
-      "BUG:",
-      "NOTE:",
-      "COMMENT:",
-      "IMPORTANT:",
-      "BOOKMARK:",
-      "PROBLEM:",
-      "WLINK:",
-      "VLINK:"
-    ],
-    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS).*(\\n\\s*//\\s{2,}.*)*",
-  
-    "editor.fontLigatures": true,
-    "powermode.enabled": true,
-    "powermode.combo.counterEnabled": "hide",
-    "powermode.combo.timerEnabled": "hide",
-    "powermode.shake.enabled": false,
-    "editor.mouseWheelZoom": true,
-    "window.zoomLevel": 1,
-    "json.schemas": [],
-    "launch": {
-      "configurations": [],
-      "compounds": []
+    "NOTE:": {
+      "icon": "note",
+      "foreground": "white",
+      "background": "#922B21",
+      "iconColour": "#922B21"
+      // "type": "text-and-comment"
     },
-    "workbench.editor.wrapTabs": true,
-    "editor.cursorBlinking": "expand",
-    "terminal.integrated.cursorStyle": "line",
-    "editor.fontWeight": "normal",
-    "chatgpt.lang": "en",
-    "bitoAI.codeCompletion.setAutoCompletionTriggerLogic": 250,
-    "chatgpt.model": "gpt-3.5-turbo",
-    "terminal.integrated.env.windows": {},
-    "tabnine.experimentalAutoImports": true,
-    "[html]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "COMMENT:": {
+      "icon": "rocket",
+      "foreground": "white",
+      "background": "#646a70",
+      "iconColour": "#8a949e",
+      "type": "text-and-comment"
     },
-    "[css]": {
-      "editor.defaultFormatter": "vscode.css-language-features"
+    "PROBLEM:": {
+      "icon": "question",
+      "foreground": "white",
+      "background": "tomato",
+      "iconColour": "tomato"
     },
-    "window.customTitleBarVisibility": "windowed",
-    "hediet.vscode-drawio.resizeImages": null,
-    "window.titleBarStyle": "custom",
-    "codesnap.containerPadding": "0.5em",
-    "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "BOOKMARK:": {
+      "icon": "bookmark",
+      "foreground": "white",
+      "background": "#417d8b",
+      "iconColour": "#70d1e7"
     },
-  
-    "editor.guides.bracketPairs": "active",
-  
-    // TODO customization
-    // comment color, italic, bold, underline
-    "editor.tokenColorCustomizations": {
-      "textMateRules": [
-        {
-          "scope": "comment",
-          "settings": {
-            // "fontStyle": "italic",
-            "fontStyle": "italic bold",
-            // "foreground": "#8134fd"
-            "foreground": "#6c627b"
-            // "foreground": "#8e9499"
-          }
+    "FIXME:": {
+      "icon": "ruby",
+      "foreground": "black",
+      "background": "pink",
+      "iconColour": "pink"
+    },
+    "BUG:": {
+      "icon": "bug",
+      "foreground": "white",
+      "background": "red",
+      "iconColour": "red"
+    },
+    "STEP:": {
+      "icon": "milestone",
+      "foreground": "white",
+      "background": "#75738b",
+      "iconColour": "#a09dbf"
+      // "type": "text-and-comment"
+    },
+    "WLINK:": {
+      "icon": "globe",
+      "foreground": "white",
+      "background": "#5d94e7",
+      "iconColour": "#5d94e7"
+    },
+    "VLINK:": {
+      "icon": "globe",
+      "foreground": "white",
+      "background": "#5d94e7",
+      "iconColour": "#5d94e7"
+    },
+    "START:":{
+      "icon": "code",
+      "foreground": "black",
+      "background": "#ffffff",
+      "iconColour": "white"
+    },
+    "END:":{
+      "icon": "code",
+      "foreground": "black",
+      "background": "#ffffff",
+      "iconColour": "white"
+    },
+
+    "[+]":{
+      "icon": "milestone",
+      "foreground": "white",
+      "background": "#3f3a74",
+      "iconColour": "#3f3a74",
+      "type": "text-and-comment"
+    },
+    "[-]":{
+      "icon": "milestone",
+      "foreground": "white",
+      "background": "#3a6674",
+      "iconColour": "#3a6674",
+      "type": "text-and-comment"
+    },
+    "[*]":{
+      "icon": "milestone",
+      "foreground": "white",
+      "background": "#632c1d",
+      "iconColour": "#632c1d",
+      "type": "text-and-comment"
+    },
+    "[/]":{
+      "icon": "milestone",
+      "foreground": "white",
+      "background": "#4c5d12",
+      "iconColour": "#4c5d12",
+      "type": "text-and-comment"
+    },
+
+
+
+  },
+  "todo-tree.general.tags": [
+    "TODO:",
+    "FIXME:",
+    "BUG:",
+    "NOTE:",
+    "COMMENT:",
+    "IMPORTANT:",
+    "BOOKMARK:",
+    "PROBLEM:",
+    "STEP:",
+    "WLINK:",
+    "VLINK:",
+    "START:",
+    "END:",
+    "[+]",
+    "[-]",
+    "[*]",
+    "[/]",
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS).*(\\n\\s*//\\s{2,}.*)*",
+
+  "editor.fontLigatures": true,
+  "powermode.enabled": true,
+  "powermode.combo.counterEnabled": "hide",
+  "powermode.combo.timerEnabled": "hide",
+  "powermode.shake.enabled": false,
+  "editor.mouseWheelZoom": true,
+  "window.zoomLevel": 1,
+  "json.schemas": [],
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "workbench.editor.wrapTabs": true,
+  "editor.cursorBlinking": "expand",
+  "terminal.integrated.cursorStyle": "line",
+  "editor.fontWeight": "normal",
+  "terminal.integrated.env.windows": {},
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "window.customTitleBarVisibility": "windowed",
+  "hediet.vscode-drawio.resizeImages": null,
+  "window.titleBarStyle": "custom",
+  "codesnap.containerPadding": "0.5em",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+
+  "editor.guides.bracketPairs": "active",
+
+  // TODO customization
+  // comment color, italic, bold, underline
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          // "fontStyle": "italic",
+          "fontStyle": "italic bold",
+          // "foreground": "#8134fd"
+          "foreground": "#6c627b"
+          // "foreground": "#8e9499"
         }
-      ]
-    },
-  
-    // TODO customization
-    // Vs code workstation color
-    "workbench.colorCustomizations": {
-      "editor.background": "#11111c",
-      "sideBar.background": "#0c0e1f",
-      "activityBar.background": "#0c0d18",
-  
-      "sideBarSectionHeader.background": "#1d1d1e",
-      "statusBar.background": "#091f17",
-      // Extra color
-      "sideBarSectionHeader.foreground": "#60c7a1",
-      "activityBar.border": "#000000",
-      "scrollbarSlider.hoverBackground": "#1d1d1e",
-  
-      // Terminal
-      "terminal.background": "#040212"
-      // "terminal.foreground": "#a7c5df",
-      // "terminalCursor.background": "#A89984",
-      // "terminalCursor.foreground": "#A89984",
-    },
-  
-    //TODO some vs code setting customization
-    // Open Terminal Default Git Bash
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
-  
-    // Folder bottom scroll bar
-    "workbench.list.horizontalScrolling": true,
-  
-    //top bar mouse wheel up down to html css etc file switch
-    "workbench.editor.scrollToSwitchTabs": true,
-  
-    // TODO side bar location customization
-    // side bar left to top
-    "workbench.activityBar.location": "top",
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "reactSnippets.settings.prettierEnabled": true,
-    "workbench.colorTheme": "Learn with Sumit - Shades of Grey"
-  }
-  
+      },
+
+      // HTML opening and Closing tags
+      {
+        "scope": ["entity.name.tag.html"],
+        "settings": {
+          //  "foreground": "#57adcf",
+          "foreground": "#00b49f",
+          //  "fontStyle": "italic bold",
+          "fontStyle": "italic"
+        }
+      },
+
+      // JSX er html opening tag
+      {
+        "scope": ["entity.name.tag.open.jsx"],
+        "settings": {
+          //  "foreground": "#69b3ce",
+          "foreground": "#57cf57",
+          //  "fontStyle": "italic bold",
+          "fontStyle": "bold"
+        }
+      },
+
+      // JSX er html closing tag
+      {
+        "scope": ["entity.name.tag.close.jsx"],
+        "settings": {
+          //  "foreground": "#69b3ce",
+          "foreground": "#57cf57",
+          //  "fontStyle": "italic bold",
+          "fontStyle": "bold"
+        }
+      },
+
+      // JSX Component opening tag
+      {
+        "scope": ["support.class.component.open.jsx"],
+        "settings": {
+          //  "foreground": "#69b3ce",
+          "foreground": "#e52424"
+          //  "fontStyle": "italic bold",
+        }
+      },
+
+      // JSX Component closing tag
+      {
+        "scope": ["support.class.component.close.jsx"],
+        "settings": {
+          //  "foreground": "#69b3ce",
+          "foreground": "#e52424"
+          //  "fontStyle": "otagic bold",
+        }
+      }
+    ]
+  },
+
+  // TODO customization
+  // Vs code workstation color
+  "workbench.colorCustomizations": {
+    "editor.background": "#1f2230aa",
+    "sideBar.background": "#191931fd",
+    "editorGroupHeader.tabsBackground": "#120d1f",
+    "editorGroupHeader.tabsBorder": "#0a7144e1",
+    "editorGroupHeader.border": "#0a7144e1",
+    "tab.activeBackground": "#120d1f",
+    "activityBar.background": "#120d1f",
+    "sideBarSectionHeader.background": "#1d1d1e",
+    "statusBar.background": "#091f17",
+    "sideBarSectionHeader.foreground": "#60c7a1",
+    "activityBar.border": "#000000",
+    "scrollbarSlider.hoverBackground": "#1d1d1e",
+    "terminal.background": "#040212"
+  },
+
+  // Folder bottom scroll bar
+  "workbench.list.horizontalScrolling": true,
+
+  //top bar mouse wheel up down to html css etc file switch
+  "workbench.editor.scrollToSwitchTabs": true,
+
+  // TODO side bar location customization
+  // side bar left to top
+  // "workbench.activityBar.location": "top",
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "reactSnippets.settings.prettierEnabled": true,
+  "code-runner.clearPreviousOutput": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.stickyScroll.enabled": false,
+  "console-ninja.featureSet": "Community",
+  "tabnine.experimentalAutoImports": true,
+  "supermaven.enableFixWithSupermaven": true,
+  "workbench.startupEditor": "none",
+  "codium.codeCompletion.enable": false,
+  "diffEditor.renderSideBySide": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font', monospace",
+  "testing.coverageBarThresholds": {
+    "red": 0,
+    "yellow": 60,
+    "green": 90
+  },
+  "python.analysis.aiCodeActions": {},
+  "cmake.options.statusBarVisibility": "visible",
+  "editor.minimap.enabled": false,
+  "workbench.colorTheme": "Andromeda Italic"
+}
