@@ -110,50 +110,62 @@
       "background": "#5d94e7",
       "iconColour": "#5d94e7"
     },
-    "START:":{
+    "START:": {
       "icon": "code",
       "foreground": "black",
       "background": "#ffffff",
       "iconColour": "white"
     },
-    "END:":{
+    "END:": {
       "icon": "code",
       "foreground": "black",
       "background": "#ffffff",
       "iconColour": "white"
     },
 
-    "[+]":{
+    "[+]": {
       "icon": "milestone",
       "foreground": "white",
-      "background": "#3f3a74",
-      "iconColour": "#3f3a74",
+      "background": "#645fb1",
+      "iconColour": "#645fb1",
+      // "type": "line",
       "type": "text-and-comment"
     },
-    "[-]":{
+    "[-]": {
       "icon": "milestone",
       "foreground": "white",
       "background": "#3a6674",
       "iconColour": "#3a6674",
+      // "type": "line",
       "type": "text-and-comment"
     },
-    "[*]":{
+    "[*]": {
       "icon": "milestone",
       "foreground": "white",
       "background": "#632c1d",
       "iconColour": "#632c1d",
+      // "type": "line",
       "type": "text-and-comment"
     },
-    "[/]":{
+    "[/]": {
       "icon": "milestone",
       "foreground": "white",
       "background": "#4c5d12",
       "iconColour": "#4c5d12",
+      // "type": "line",
       "type": "text-and-comment"
     },
+    "[=]": {
+      "icon": "milestone",
+      "foreground": "black",
+      "background": "#cacccd",
+      "iconColour": "#cacccd",
+      "fontStyle": "underline",
+      // "type": "line",
+      "type": "text-and-comment"
+    }
 
-
-
+    // some other icon name alert, share, check, codescan,tools, verified
   },
   "todo-tree.general.tags": [
     "TODO:",
@@ -173,6 +185,7 @@
     "[-]",
     "[*]",
     "[/]",
+    "[=]"
   ],
   "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS).*(\\n\\s*//\\s{2,}.*)*",
 
@@ -287,7 +300,8 @@
     "editorGroupHeader.tabsBackground": "#120d1f",
     "editorGroupHeader.tabsBorder": "#0a7144e1",
     "editorGroupHeader.border": "#0a7144e1",
-    "tab.activeBackground": "#120d1f",
+    // "tab.activeBackground": "#120d1f",
+    "tab.activeBackground": "#190963d2",
     "activityBar.background": "#120d1f",
     "sideBarSectionHeader.background": "#1d1d1e",
     "statusBar.background": "#091f17",
